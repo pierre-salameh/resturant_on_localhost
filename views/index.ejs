@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="screen">
+
+            <div class="screen__content">
+                <form  action="/add_food" method="POST">
+                    <div class="login__input"> <input type="text" name="name" placeholder="name"></div>
+                    
+                    <div class="login__input">
+                        <input type="number" name="price" placeholder="price">
+                    </div>
+
+                    <br>
+                    <div  class="login__input"> <input style="background-color: darkgreen; color: aliceblue;"  type="submit" value="add food"></div>
+
+
+                </form>
+               
+                <a style="color: aliceblue;" href="/show" class="login__submit">ShowAll</a> 
+                <a style="color: aliceblue;" href="update" class="login__submit">update_food</a>
+                <br>
+                <a style="color: aliceblue;" class="login__submit" href="insert">upload pic</a>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
